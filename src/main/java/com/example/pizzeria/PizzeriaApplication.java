@@ -10,7 +10,7 @@ public class PizzeriaApplication {
 	public static void main(String[] args) {
         ApplicationContext ctx = SpringApplication.run(PizzeriaApplication.class, args);
         Menu menu = ctx.getBean(Menu.class);
-        menu.printMenu();
+
 	}
 
 }
